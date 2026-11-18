@@ -16,4 +16,4 @@ def test_anyamount():
     totalBal, updatedBal = bankOper(150000,0,135000)
 
     assert totalBal == 150000
-    assert updatedBal == 135000
+    assert updatedBal == 15000
