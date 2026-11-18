@@ -1,10 +1,10 @@
 from bank import bankOper
 
 def test_deposit():
-    totalBal, updatedBal = bankOper(30000,25000,0)
+    totalBal, updatedBal = bankOper(200000,30000,0)
 
-    assert totalBal == 30000
-    assert updatedBal == 25000
+    assert totalBal == 230000
+    assert updatedBal == 230000
 
 def test_withdraw():
     totalBal, updatedBal = bankOper(100000,40000,10000)
